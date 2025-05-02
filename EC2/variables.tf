@@ -37,6 +37,7 @@ variable "ebs_iops" {
   type        = string
   description = "AWS defaults for EBS volume IOPS"
   default     = 1000
+  default     = 2000
 }
 
 variable "ebs_throughput" {
